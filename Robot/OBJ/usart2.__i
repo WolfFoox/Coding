@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\motor -I..\SYSTEM\keysacn -I..\SYSTEM\IRSEARCH -I..\SYSTEM\IRAvoid -I..\SYSTEM\remote
+-I F:\Coding\10、ZYSTM32-A1智能小车黑线循迹、避障、遥控实验综合程序\USER\RTE
+-I D:\STM32\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I D:\STM32\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\usart2.o --omf_browse ..\obj\usart2.crf --depend ..\obj\usart2.d "F:\文档\学业文档\大三\人工智能技术\展示\智宇科技 ZYSTM32-A1亚克力四驱机器人蓝牙资料20170119\智宇科技 ZYAR40A 亚克力四驱机器人蓝牙资料20170119\12、智能小车线蓝牙遥控实验\1.ZYSTM32-A1 机器人蓝牙控制程序\11、ZYSTM32-A1 机器人蓝牙控制程序\SYSTEM\USART2\usart2.c"
